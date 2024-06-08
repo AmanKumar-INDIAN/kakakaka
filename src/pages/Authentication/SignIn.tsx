@@ -1,5 +1,5 @@
 
-import { useForm, SubmitHandler } from "react-hook-form"
+import { useForm } from "react-hook-form"
 import { Link } from 'react-router-dom';
 
 // import LogoDark from '../../images/logo/logo-dark.svg';
@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 const SignIn: React.FC = () => {
 
   
-    const { register, handleSubmit } = useForm<IFormInput>()
-  const onSubmit: SubmitHandler<IFormInput> = (data) => console.log(data)
+    const { register, handleSubmit } = useForm()
+  const onSubmit= (data:any) => console.log(data)
 
   
   return (
