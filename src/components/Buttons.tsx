@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 interface buttonPrpr{
     title:string,
-    rederectTo? :string,
+    rederectTo :string,
     classname?:string
 }
 

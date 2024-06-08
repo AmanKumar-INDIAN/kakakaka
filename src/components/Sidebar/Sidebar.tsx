@@ -53,8 +53,8 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
   const location = useLocation();
   const { pathname } = location;
 
-  const trigger = useRef(null);
-  const sidebar = useRef(null);
+  const trigger = useRef<any>(null);
+  const sidebar = useRef<any>(null);
 
   const storedSidebarExpanded = localStorage.getItem('sidebar-expanded');
   const [sidebarExpanded, setSidebarExpanded] = useState(

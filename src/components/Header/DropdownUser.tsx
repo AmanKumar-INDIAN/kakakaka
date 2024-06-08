@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import userlog from "/user.jpg"
+
 
 // import UserOne from '../../images/user/user-01.png';
 
