@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom"
 import Buttons from "./Buttons"
 import { useState } from "react"
 
-import {  BiArrowToLeft, BiRightArrow } from "react-icons/bi"
+import {  BiArrowToLeft} from "react-icons/bi"
 
 function Navbar() {
 
