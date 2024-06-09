@@ -6,6 +6,7 @@ import { SectionTitle } from "../components/SectionTitle"
 import { Video } from "../components/Video"
 import { Testimonials } from "../components/Testimonials"
 import { Benefits } from "../components/Benefits"
+import { Link } from "react-router-dom"
 
 function Home() {
   return <>
@@ -120,6 +121,7 @@ We man life and providi Lorem ipsum dolor sit, amet consectetur adipisicing elit
 
 
 <Testimonials/>
+<Link to={"/workspace"} className=" text-white  border-2 border-red-600">Workspace check</Link>
 </Container>
 
 
