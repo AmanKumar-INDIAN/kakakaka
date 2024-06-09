@@ -24,7 +24,7 @@ const SignUp: React.FC = () => {
           <div className=" w-full xl:block xl:w-1/2">
             <div className="py-17.5 px-26 text-center">
               <Link className="mb-5.5 inline-block" to="/">
-                <img className="hidden dark:block" src={"#"} alt="Logo" />
+                <img className="hidden dark:block w-20" src={"/nvidia.png"}  alt="Logo" />
                 <img className="dark:hidden" src={"#"} alt="Logo" />
               </Link>
               <p className="2xl:px-20 text-white my-4">

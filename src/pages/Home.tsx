@@ -10,7 +10,7 @@ import { Benefits } from "../components/Benefits"
 function Home() {
   return <>
   
-<Container classname=" bg-black">
+<Container classname=" bg-black h-full">
 
   <div className=" flex flex-wrap">
 
@@ -21,9 +21,7 @@ function Home() {
                startups me invest be krte hai ye com fer 10 or 20x ke profite m se return krti hai
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-100 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Nextly is a free landing page & marketing website
-              template for startups and indie projects. Its built with
-              Next.js & TailwindCSS. And its completely open-source.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias beatae inventore dicta cupiditate nisi sunt magnam molestiae! Ab, expedita deleniti? Ratione minus ducimus animi quod, commodi nihil nobis rerum nam?
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
@@ -92,8 +90,8 @@ function Home() {
   <div className=" w-full flex justify-center  items-center mx-auto text-center">
 
    <SectionTitle
-        preTitle="Nextly Benefits"
-        title=" Why should you use this landing page"
+        preTitle="Benifite with us"
+        title=" a tittle for there a good one"
       >
 We are aimed at accelerating the implementation of digital solutions in human life and providing opportunities to earn money on new innovative trading projects. We continuously examine the cryptocurrency market and participate in the development of perspective blockchain solutions so that you can be the first to use successfully the new market trends. We put the focus on uniting people, sharing our knowledge and experience with them, educating them to manage digital assets and preparing to keep up with the trends of digital market.
 
@@ -108,7 +106,7 @@ You don’t have to worry about the devaluation of the local currency or low inc
   <div className=" w-full flex justify-center  items-center mx-auto text-center">
 
    <SectionTitle
-        preTitle="Nextly Benefits"
+        preTitle="hamari comp ke sath benifit"
         title=" Why should you daaaaa"
       >
 We man life and providi Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis beatae distinctio nesciunt voluptate numquam pariatur, ducimus quos non culpa ipsam.of digital market.

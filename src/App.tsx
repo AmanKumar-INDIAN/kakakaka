@@ -9,6 +9,10 @@ import Layout from "./pages/Layout"
 import SignUp from "./pages/Authentication/SignUp"
 import Workspace from "./pages/Workspace"
 
+import Profile from "./pages/profile/Profile"
+import TableOne from "./pages/tabelpage/Tableone"
+import Profilesetting from "./pages/ProfilSetting/Profilesetting"
+
 
 
 
@@ -34,8 +38,10 @@ function App() {
 
 </Route>
 
-<Route path="/workspace" element={<Workspace/>}/>
-
+<Route path="/workspace" element={<Workspace/> }/>
+<Route path="/workspace/profile" element={<Profile/> }/>
+<Route path="/workspace/team" element={<TableOne/> }/>
+<Route path="/workspace/setting" element={<Profilesetting/>}/> 
   <Route path='*'  element={<NotFound/>} />
 
 </Routes>

@@ -30,9 +30,7 @@ export function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Nextly is a free landing page & marketing website template for
-              startups and indie projects. Its built with Next.js & TailwindCSS.
-              And its completely open-source.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quae laboriosam aspernatur ratione aperiam iure fuga. Veniam quaerat, consequatur dignissimos, molestias aspernatur totam dolorum placeat exercitationem hic repellendus atque beatae?
             </div>
 
     

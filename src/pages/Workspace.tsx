@@ -1,5 +1,11 @@
+import { BiArrowFromBottom } from "react-icons/bi"
 import CardDataStats from "../components/card/Carddataststus"
+import ChartTwo from "../components/chart/AchartTwo"
+import ChartThree from "../components/chart/ChartTwo"
+import ChartOne from "../components/chart/Chartone"
 import DefaultLayout from "../layout/DefaultLayout"
+
+import { BsAirplane } from "react-icons/bs"
 
 
 function Workspace() {
@@ -8,7 +14,7 @@ function Workspace() {
    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 xl:grid-cols-4 2xl:gap-7.5">
         <CardDataStats title="Total income" total="$3.456K" rate="0.43%" levelUp>
           <svg
-            className="fill-primary fill-green-200 "
+            className="fill-primary fill-green-200  "
             width="22"
             height="22"
             viewBox="0 0 22 16"
@@ -90,7 +96,23 @@ function Workspace() {
             />
           </svg>
         </CardDataStats>
+              <CardDataStats title="Level Income" total="3.456" rate="0.5%" levelDown>
+        <BiArrowFromBottom size={26}/>
+        </CardDataStats>
+              <CardDataStats title="SIP Income" total="3.456" rate="0.95%" levelDown>
+<BsAirplane size={22}/>
+        </CardDataStats>
       </div>
+
+
+
+<div className=" mt-4 grid grid-cols-12 gap-4">
+
+   <ChartOne/>
+   <ChartTwo/>
+   <ChartThree/>
+</div>
+  
   </DefaultLayout>
   </>
 }

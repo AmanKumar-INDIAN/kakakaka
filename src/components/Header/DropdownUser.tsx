@@ -45,10 +45,10 @@ const DropdownUser = () => {
         to="#"
       >
         <span className=" text-right lg:block">
-          <span className="block text-sm font-medium text-white ">
+          <span className="block text-md font-medium text-white ">
            kaka
           </span>
-          <span className="block text-xs text-white">Profite Partner</span>
+          <span className="block text-sm text-white">Profite Partner</span>
         </span>
 
         <span className="h-10 w-10 rounded-full">

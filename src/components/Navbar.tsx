@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom"
 import Buttons from "./Buttons"
 import { useState } from "react"
 
-import {  BiRightArrow } from "react-icons/bi"
+import {  BiArrowToLeft, BiRightArrow } from "react-icons/bi"
 
 function Navbar() {
 
@@ -91,11 +91,11 @@ function Navbar() {
     {/* mobile nav */}
 
 
-    <div className={` duration-300 ease-linear   border-l-2 border-green-400 bg-black w-2/3 h-full absolute top-2 z-50 right-0 ${Shownav ? "":"hidden"}`}>
+    <div className={` duration-300  ease-linear   border-r overflow-y-hidden border-green-400  bg-gradient-to-t from-[#13250a] to-black w-2/3 h-screen fixed top-0 z-50 left-0 ${Shownav ? 'translate-x-0' : '-translate-x-full'}`}>
 
-<div className="my-5 mx-2" onClick={()=>setShownav(!Shownav)}>
-    <BiRightArrow size={37} className=" text-white"/>
-
+<div className="mx-3 my-6 flex justify-end" onClick={()=>setShownav(!Shownav)}>
+  
+<BiArrowToLeft  size={37} className=" text-green-700"/>
 
 
 </div>

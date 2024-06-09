@@ -11,7 +11,7 @@ import Header from "../components/Header";
 function DefaultLayout({children}:{children:React.ReactNode}) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
-  return <div className=" dark:text-white bg-black  " >
+  return <div className="text-white bg-black  " >
 <div className="flex h-screen overflow-hidden ">
 {/* sidebar */}
 
@@ -23,7 +23,7 @@ function DefaultLayout({children}:{children:React.ReactNode}) {
 
 {/* main */}
      <main>
-            <div className="mx-auto max-w-screen-2xl p-4 md:p-6 2xl:p-10">
+            <div className="mx-auto max-w-screen-2xl p-4 md:p-6 2xl:p-10 bg-gradient-to-r from-[#091205] via-[#13250a] to-gray-800">
               {children}
             </div>
           </main>

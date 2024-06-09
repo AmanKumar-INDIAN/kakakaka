@@ -85,18 +85,18 @@ const benefitTwo = {
   image: userone,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "kjdc sd vsad d gddfg ",
+      desc: "This will be your last bullet point in this section..",
       icon: <MdOilBarrel />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "rghf rtdh dfgh  g asdga",
+      desc: "This will be your last bullet point in this section.",
       icon: <HiGift />,
     },
     {
       title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      desc: "ikusdqw wfne qgewt wrth ert  ret h  erfh erwt hr ",
       icon: <SiUnicode />,
     },
   ],
