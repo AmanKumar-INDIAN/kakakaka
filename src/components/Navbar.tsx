@@ -17,12 +17,12 @@ function Navbar() {
 
     <nav className="   relative flex flex-wrap  items-center justify-between px-2  ">
 
-        <div className=" ">
-            <Link to={"/"} className=" flex  flex-col">
-<img src="/nvidia.png" className=" w-40 "/>
-<p className=" relative bottom-8 left-16 text-xl text-green-500 font-semibold">
+        <div className="flex items-center  ">
+            <Link to={"/"} className=" flex  justify-center items-center ">
+<img src="/nvidia.png" className=" w-24 flex justify-center items-center  "/>
+<p className=" relative top-2 -left-5 text-2xl text-yellow-500 font-semibold">
     
-   <span className="text-2xl">P</span>artner's</p>
+   Angel Bitcoiner </p>
  
             </Link>
             
@@ -73,7 +73,7 @@ function Navbar() {
 
 <div className=" lg:hidden">
     <div className="" onClick={()=>setShownav(!Shownav)}>
-  <IoIosMenu  size={37}/>
+  <IoIosMenu  size={37} className=" text-yellow-500"/>
     </div>
 
      
@@ -95,7 +95,7 @@ function Navbar() {
 
 <div className="mx-3 my-6 flex justify-end" onClick={()=>setShownav(!Shownav)}>
   
-<BiArrowToLeft  size={37} className=" text-green-700"/>
+<BiArrowToLeft  size={37} className=" text-yellow-600"/>
 
 
 </div>
@@ -116,13 +116,7 @@ function Navbar() {
                </li>
                </Link> 
 
-{/*                    
-               <Link to={"/ecosystem"}>
 
-               <li>
-                <p className={` text-[18px] ${pathname.includes("ecosystem") ? " text-green-100" :""}`}>Ecosystem</p>
-               </li>
-               </Link>  */}
                 <Link to={"/connect"} >
 
                <li>

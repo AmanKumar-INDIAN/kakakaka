@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo  from "/nvidia.png"
+import logo  from "/Logo.png"
 import DropdownNotification from './DropdownNotification';
 import DropdownUser from './DropdownUser';
 import { MdMenu } from 'react-icons/md';

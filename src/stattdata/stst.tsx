@@ -1,12 +1,14 @@
-import { FaCediSign } from "react-icons/fa6";
+import { FaCediSign, FaPeopleGroup } from "react-icons/fa6";
 import userone from "/bitre.png"
-import pichartpic from "/pie.png"
+import pichartpic from "/Side1.jpg"
 import growth from "/growth.jpg"
 import { CgChart } from "react-icons/cg";
 import { BiArrowBack } from "react-icons/bi";
 import { MdOilBarrel } from "react-icons/md";
 import { HiGift } from "react-icons/hi";
-import { SiUnicode } from "react-icons/si";
+
+import { FcCustomerSupport } from "react-icons/fc";
+
 
 
 
@@ -57,47 +59,47 @@ export  const dataa=[
 
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
-  image: pichartpic,
+  title: "Angel Bitcoiner BENEFITS",
+  desc: "We provides more protection and  benefits to our users  ",
+ image:pichartpic,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaCediSign/>,
+      title: "PROFESSIONAL TEAM",
+      desc: "We are team of professional traders in Forex & Crypto Exchange and Coins trading and Crypto Mining who know how to grab the profit end of the day..",
+      icon: <FaPeopleGroup/>,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "DDOS PROTECTION",
+      desc: "We are using one of most experienced , professional and trusted DDoS Protection and mitigation provider.",
       icon: <CgChart />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "COMODO ESSENTIAL-SSL SECURITY",
+      desc: "Our website using Comodo Essential-SSL Security encryption and that confirms that the presented content is the genuine and legitimate.",
       icon: <BiArrowBack/>,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Offer more benefits ",
+  desc: "Angel Bitcoiner",
   image: userone,
   bullets: [
     {
-      title: "kjdc sd vsad d gddfg ",
-      desc: "This will be your last bullet point in this section..",
+      title: "REGISTERED COMPANY ",
+      desc: "We are a legal company registered in the United Kingdom, providing its investment services to the members all around the world.",
       icon: <MdOilBarrel />,
     },
     {
-      title: "rghf rtdh dfgh  g asdga",
-      desc: "This will be your last bullet point in this section.",
+      title: "FAST WITHDRAWALS",
+      desc: "Get your payment fast! Minimum withdrawal is  5$. There is no fee for withdrawals.",
       icon: <HiGift />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "ikusdqw wfne qgewt wrth ert  ret h  erfh erwt hr ",
-      icon: <SiUnicode />,
+      title: "24/7 CUSTOMER SUPPORT",
+      desc: "Please don't hesitate to contact us should you have any questions and we will get back to you in 24 Hours, 7 days a week! ",
+      icon: <FcCustomerSupport />,
     },
   ],
 };

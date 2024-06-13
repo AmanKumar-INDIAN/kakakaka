@@ -7,22 +7,32 @@ import { Video } from "../components/Video"
 import { Testimonials } from "../components/Testimonials"
 import { Benefits } from "../components/Benefits"
 import { Link } from "react-router-dom"
+import Certificate from "../components/Certificate"
+
 
 function Home() {
   return <>
   
-<Container classname=" bg-black h-full">
+<Container classname=" bg-black h-full ">
 
-  <div className=" flex flex-wrap">
+<img src="/bullback.jpg" className=" absolute z-0 sm:w-[80%] bg-cover bg-center w-[95%] opacity-50" alt="" />
+
+  <div className=" flex flex-wrap z-30 relative">
 
 
        <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
-            <h1 className="text-4xl font-bold leading-snug tracking-tight text-white lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-               startups me invest be krte hai ye com fer 10 or 20x ke profite m se return krti hai
+            <h1 className="text-4xl font-bold leading-snug tracking-tight lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight text-white">
+               Angel bitcoiner 
+               
+             
+
             </h1>
+            <p className="text-4xl font-bold leading-snug tracking-tight lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight text-white "> PROFITABLE STRIDE</p>
             <p className="py-5 text-xl leading-normal text-gray-100 lg:text-xl xl:text-2xl dark:text-gray-300">
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias beatae inventore dicta cupiditate nisi sunt magnam molestiae! Ab, expedita deleniti? Ratione minus ducimus animi quod, commodi nihil nobis rerum nam?
+Angel bitcoiner revolutionary crypto arbitrage software stands as a beacon of innovation in the digital asset realm. Powered by cutting-edge algorithms and advanced machine learning, this genius software meticulously scans multiple cryptocurrency exchanges in real-time, identifying price differentials and arbitrage opportunities with lightning speed and precision. Seamlessly executing trades across platforms, it capitalizes on even the slightest market inefficiencies, generating consistent profits for Angel bitconier  and its users.
+
+
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
@@ -54,11 +64,11 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center w-full lg:w-1/2">
+        {/* <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
     <img src="/homepic.jpg"  alt="nvidia"/>
           </div>
-        </div>
+        </div> */}
           </div>
 
 </Container>
@@ -87,18 +97,30 @@ function Home() {
 
 </Container>
 
+
+
+  <Testimonials/>
+
+
+
 <Container classname=" mx-auto w-full">
-  <div className=" w-full flex justify-center  items-center mx-auto text-center">
+  <div className=" w-full flex justify-center rounded-xl  items-center mx-auto text-center h-full">
 
    <SectionTitle
         preTitle="Benifite with us"
-        title=" a tittle for there a good one"
+        title=" GET STARTED INVESTING WITH Angel bitcoiner TODAY."
       >
-We are aimed at accelerating the implementation of digital solutions in human life and providing opportunities to earn money on new innovative trading projects. We continuously examine the cryptocurrency market and participate in the development of perspective blockchain solutions so that you can be the first to use successfully the new market trends. We put the focus on uniting people, sharing our knowledge and experience with them, educating them to manage digital assets and preparing to keep up with the trends of digital market.
+In the midst of a roaring bull market, Angel bitcoiner  finds itself in a profitable stride. Riding the wave of rising crypto prices and investor optimism, Angel's investments flourish, yielding handsome returns. With astute decision-making and a keen eye on market trends, Angel bitcoiner capitalizes on opportunities presented by the bullish sentiment, maximizing gains across various sectors.
 
-You don’t have to worry about the devaluation of the local currency or low income from bank deposits, Start mining with us, you will get the passive income 24/7/365. We are professionals of the market consulting about cryptocurrencies and giving recommendations about further reinvestments for getting higher returns
+As portfolios swell and revenues soar, Angel bitcoiner solidifies its position as a savvy player in the financial landscape, reaping the rewards of a buoyant market environment. With each successful trade and strategic maneuver, Angesl"s stands as a testament to navigating and thriving amidst market euphoria.
       </SectionTitle>
   </div>
+
+
+
+
+
+
 
 <Benefits data={benefitOne} />
     <Benefits imgPos="right" data={benefitTwo} />
@@ -107,20 +129,22 @@ You don’t have to worry about the devaluation of the local currency or low inc
   <div className=" w-full flex justify-center  items-center mx-auto text-center">
 
    <SectionTitle
-        preTitle="hamari comp ke sath benifit"
-        title=" Why should you daaaaa"
+        preTitle="REFERRAL COMMISSION"
+        title="Grow more earn more "
       >
-We man life and providi Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis beatae distinctio nesciunt voluptate numquam pariatur, ducimus quos non culpa ipsam.of digital market.
-
+Spread the word about the platform to your friends, family, and social media followers. Make sure to include your unique referral link so that you get commission for the referrals.
       </SectionTitle>
   </div>
+
+
+<Certificate/>
 
 
 <Video videoId="ULkRZQiBrN5vQgGs" />
 
 
 
-<Testimonials/>
+
 <Link to={"/workspace"} className=" text-white  border-2 border-red-600">Workspace check</Link>
 </Container>
 
