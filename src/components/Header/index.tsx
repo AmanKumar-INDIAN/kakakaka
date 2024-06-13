@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo  from "/Logo.png"
+import logo  from "/nvidia.png"
 import DropdownNotification from './DropdownNotification';
 import DropdownUser from './DropdownUser';
 import { MdMenu } from 'react-icons/md';
@@ -28,7 +28,7 @@ const Header = (props: {
           {/* <!-- Hamburger Toggle BTN --> */}
 
           <Link className="block flex-shrink-0 lg:hidden" to="/">
-            <img src={logo} className=' w-32' alt="Logo" />
+            <img src={logo} className=' w-24' alt="Logo" />
           </Link>
         </div>
 
@@ -38,17 +38,11 @@ const Header = (props: {
 
         <div className="flex items-center gap-5 2xsm:gap-7">
           <ul className="flex items-center gap-2 2xsm:gap-4">
-            {/* <!-- Dark Mode Toggler --> */}
-            {/* <DarkModeSwitcher /> */}
-            {/* <!-- Dark Mode Toggler --> */}
+ 
 
             {/* <!-- Notification Menu Area --> */}
             <DropdownNotification />
-            {/* <!-- Notification Menu Area --> */}
-
-            {/* <!-- Chat Notification Area --> */}
-            {/* <DropdownMessage /> */}
-            {/* <!-- Chat Notification Area --> */}
+    
           </ul>
 
           {/* <!-- User Area --> */}
