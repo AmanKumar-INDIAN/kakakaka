@@ -59,7 +59,7 @@ export  const dataa=[
 
 
 const benefitOne = {
-  title: "Angel Bitcoiner BENEFITS",
+  title: " Nvidia Profit Partner  BENEFITS",
   desc: "We provides more protection and  benefits to our users  ",
  image:pichartpic,
   bullets: [
@@ -83,7 +83,7 @@ const benefitOne = {
 
 const benefitTwo = {
   title: "Offer more benefits ",
-  desc: "Angel Bitcoiner",
+  desc: " Nvidia Profit Partner ",
   image: userone,
   bullets: [
     {

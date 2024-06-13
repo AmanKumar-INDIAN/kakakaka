@@ -23,14 +23,14 @@ function Home() {
        <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight text-white">
-               Angel bitcoiner 
+          Nvidia Profit Partner 
                
              
 
             </h1>
             <p className="text-4xl font-bold leading-snug tracking-tight lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight text-white "> PROFITABLE STRIDE</p>
             <p className="py-5 text-xl leading-normal text-gray-100 lg:text-xl xl:text-2xl dark:text-gray-300">
-Angel bitcoiner revolutionary crypto arbitrage software stands as a beacon of innovation in the digital asset realm. Powered by cutting-edge algorithms and advanced machine learning, this genius software meticulously scans multiple cryptocurrency exchanges in real-time, identifying price differentials and arbitrage opportunities with lightning speed and precision. Seamlessly executing trades across platforms, it capitalizes on even the slightest market inefficiencies, generating consistent profits for Angel bitconier  and its users.
+ Nvidia Profit Partner  revolutionary crypto arbitrage software stands as a beacon of innovation in the digital asset realm. Powered by cutting-edge algorithms and advanced machine learning, this genius software meticulously scans multiple cryptocurrency exchanges in real-time, identifying price differentials and arbitrage opportunities with lightning speed and precision. Seamlessly executing trades across platforms, it capitalizes on even the slightest market inefficiencies, generating consistent profits for  Nvidia Profit Partner   and its users.
 
 
             </p>
@@ -40,7 +40,7 @@ Angel bitcoiner revolutionary crypto arbitrage software stands as a beacon of in
                 href="/auth/singup"
                 target="_blank"
                 rel="noopener"
-                className="px-8 py-4 text-lg  text-center text-gray-900 font-bold bg-yellow-500 rounded-md ">
+                className="px-8 py-4 text-lg  text-center text-gray-900 font-bold bg-green-600 rounded-md ">
                 Start Earning
               </a>
 
@@ -89,11 +89,11 @@ Angel bitcoiner revolutionary crypto arbitrage software stands as a beacon of in
 
    <SectionTitle
         preTitle="Benifite with us"
-        title=" GET STARTED INVESTING WITH Angel bitcoiner TODAY."
+        title=" GET STARTED INVESTING WITH  NVIDIA PROFIT PARTNER TODAY."
       >
-In the midst of a roaring bull market, Angel bitcoiner  finds itself in a profitable stride. Riding the wave of rising crypto prices and investor optimism, Angel's investments flourish, yielding handsome returns. With astute decision-making and a keen eye on market trends, Angel bitcoiner capitalizes on opportunities presented by the bullish sentiment, maximizing gains across various sectors.
+In the midst of a roaring bull market,  Nvidia Profit Partner   finds itself in a profitable stride. Riding the wave of rising crypto prices and investor optimism,  Nvidia Profit Partner  investments flourish, yielding handsome returns. With astute decision-making and a keen eye on market trends,  Nvidia Profit Partner  capitalizes on opportunities presented by the bullish sentiment, maximizing gains across various sectors.
 
-As portfolios swell and revenues soar, Angel bitcoiner solidifies its position as a savvy player in the financial landscape, reaping the rewards of a buoyant market environment. With each successful trade and strategic maneuver, Angesl"s stands as a testament to navigating and thriving amidst market euphoria.
+As portfolios swell and revenues soar,  Nvidia Profit Partner  solidifies its position as a savvy player in the financial landscape, reaping the rewards of a buoyant market environment. With each successful trade and strategic maneuver,  Nvidia Profit Partner  stands as a testament to navigating and thriving amidst market euphoria.
       </SectionTitle>
   </div>
 

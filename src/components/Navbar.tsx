@@ -19,10 +19,10 @@ function Navbar() {
 
         <div className="flex items-center  ">
             <Link to={"/"} className=" flex  justify-center items-center ">
-<img src="/nvidia.png" className=" w-24 flex justify-center items-center  "/>
-<p className=" relative top-2 -left-5 text-2xl text-yellow-500 font-semibold">
+<img src="/nvidia.png" className=" w-32 flex justify-center items-center  "/>
+<p className=" relative top-0 left-2 text-xl text-yellow-500 font-semibold">
     
-   Angel <span className=" text-green-600">Bitconiner</span></p>
+   Profit<span className=" text-green-600">Partner</span></p>
  
             </Link>
             
