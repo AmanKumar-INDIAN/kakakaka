@@ -36,7 +36,7 @@ export function Video({ videoId }: Readonly<VideoProps>) {
           </button>
         )}
         {playVideo && (
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/BL5vUVQvmX4?si=aMFMre-_pgfsQYSh" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe> )}
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/rdGqR_3AQ-s?si=7T9-3AS6PSjIF0pm" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>)}
       </div>
     </Container>
   );
