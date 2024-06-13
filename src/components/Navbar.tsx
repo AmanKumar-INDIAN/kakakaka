@@ -22,7 +22,7 @@ function Navbar() {
 <img src="/nvidia.png" className=" w-24 flex justify-center items-center  "/>
 <p className=" relative top-2 -left-5 text-2xl text-yellow-500 font-semibold">
     
-   Angel Bitcoiner </p>
+   Angel <span className=" text-green-600">Bitconiner</span></p>
  
             </Link>
             
