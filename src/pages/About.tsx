@@ -15,11 +15,11 @@ function About() {
        <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-white lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-WELCOME TO  ANGEL BITCOINER
+WELCOME TO  Nvidia Profit partner 
 
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-100 lg:text-xl xl:text-2xl dark:text-gray-300">
-      Angel bitconier revolutionary crypto arbitrage software stands as a beacon of
+      NVIDIA PROFIT PARTNER revolutionary crypto arbitrage software stands as a beacon of
        innovation in the digital asset realm. Powered by cutting-edge algorithms and 
        advanced machine learning, this genius software meticulously scans multiple
         cryptocurrency exchanges in real-time, identifying price differentials and 
