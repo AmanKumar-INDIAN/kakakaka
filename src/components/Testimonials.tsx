@@ -8,21 +8,21 @@ import ChartThree from "./chart/ChartTwo";
 export const Testimonials = () => {
   return (
     <Container>
-      <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
-        <div className="lg:col-span-2 xl:col-auto">
+      <div className="lg:flex gap-10 justify-between">
+        <div className="">
           <div className="flex flex-col text-white justify-between w-full h-full bg-black  rounded-2xl py-14 ">
   <h1 className=" text-2xl text-center font-bold ">Trading Aporchnity</h1>
 <ChartOne/>
           </div>
         </div>
-        <div className="lg:col-span-2 xl:col-auto">
+        <div className="">
           <div className="flex flex-col text-white justify-between w-full h-full bg-black  rounded-2xl py-14 ">
   <h1 className=" text-2xl text-center font-bold ">Total Profite </h1>
 <ChartTwo/>
           </div>
         </div>
-                <div className="lg:col-span-2 xl:col-auto">
-          <div className="flex flex-col text-white justify-between w-full h-full bg-black  rounded-2xl py-14 ">
+                <div className="">
+          <div className="flex flex-col text-white justify-between  h-full bg-black  rounded-2xl py-14 ">
   <h1 className=" text-2xl text-center font-bold ">Monthy Rrevenue Profit</h1>
 <ChartThree/>
           </div>

@@ -102,7 +102,6 @@ Angel bitcoiner revolutionary crypto arbitrage software stands as a beacon of in
 
 </Container>
 
-  <Testimonials/>
 
 
 
