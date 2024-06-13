@@ -1,5 +1,5 @@
 import { FaCediSign, FaPeopleGroup } from "react-icons/fa6";
-import userone from "/bitre.png"
+import userone from "/back2.png"
 import pichartpic from "/Side1.jpg"
 import growth from "/growth.jpg"
 import { CgChart } from "react-icons/cg";
@@ -15,44 +15,44 @@ import { FcCustomerSupport } from "react-icons/fc";
 export  const dataa=[
     {
         title:"Microsoft",
-        imageurl:"/microsoft.jpg"
+        imageurl:"/mov2.png"
     },
 
        {
         title:"Nasa",
-        imageurl:"/nasa.jpg"
+        imageurl:"/check1.png"
     },
        {
         title:"Netflix",
-        imageurl:"/net.jpg"
+        imageurl:"/check2.png"
     },
        {
         title:"Tesela",
-        imageurl:"/tasla.jpg"
+        imageurl:"/check3.png"
     },
        {
         title:"Apple",
-        imageurl:"/app.jpg"
+        imageurl:"/check4.png"
     },
        {
         title:"",
-        imageurl:"/bit.jpg"
+        imageurl:"/check5.png"
     },
        {
         title:"Facebook",
-        imageurl:"/fb2.jpg"
+        imageurl:"/check12.png"
     },
        {
         title:"Google",
-        imageurl:"/google.jpg"
+        imageurl:"/check7.png"
     },
        {
         title:"Ibm",
-        imageurl:"/ibm.jpg"
+        imageurl:"/check9.png"
     },
           {
         title:"Gta",
-        imageurl:"/gta2.jpg"
+        imageurl:"/check11.png"
     },
 ]
 

@@ -7,8 +7,9 @@ import ChartThree from "./chart/ChartTwo";
 
 export const Testimonials = () => {
   return (
-    <Container>
-      <div className="lg:flex gap-10 justify-between">
+    <Container classname=" relative">
+
+      <div className="lg:flex gap-10 justify-between    ">
         <div className="">
           <div className="flex flex-col text-white justify-between w-full h-full bg-black  rounded-2xl py-14 ">
   <h1 className=" text-2xl text-center font-bold ">Trading Aporchnity</h1>

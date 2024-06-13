@@ -31,7 +31,7 @@ function Connect() {
       <div className=" md:flex w-full justify-center items-center  my-10">
    
       <div className=" justify-center flex  md:w-1/2 mx-20 border-gray-950 border-2">
-        <img src="/user.jpg" className=" bg-center rounded-3xl"  alt="" />
+        <img src="/user.png" className=" bg-center rounded-3xl"  alt="" />
       </div>
 
          <div className="text-white md:w-1/2  my-10 justify-center flex border-gray-950 border-2 rounded-3xl ">
